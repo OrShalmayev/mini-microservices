@@ -183,33 +183,26 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="MyQ6K6mgserKstN5wtNk" name="Server">
-    <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="suxNOuf6GMxDfs4Z-bu6-1" value="CPU" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cpu;" vertex="1" parent="1">
-          <mxGeometry x="425" y="230" width="44.8" height="44.8" as="geometry" />
-        </mxCell>
-        <mxCell id="suxNOuf6GMxDfs4Z-bu6-2" value="Hard disk" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.hard_disk;" vertex="1" parent="1">
-          <mxGeometry x="427" y="120" width="40" height="54" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="yVNWeKlrKV_7KSGC9lbd" name="CPU">
-    <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="tY4K5Jx5A_PS14t0Z0hS" name="App architecture">
-    <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6vz8rKe293q5rdwhXEcq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovbPul3jTtXf5PKCSd0V-1" target="6vz8rKe293q5rdwhXEcq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vz8rKe293q5rdwhXEcq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovbPul3jTtXf5PKCSd0V-1" target="6vz8rKe293q5rdwhXEcq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vz8rKe293q5rdwhXEcq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovbPul3jTtXf5PKCSd0V-1" target="6vz8rKe293q5rdwhXEcq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vz8rKe293q5rdwhXEcq-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovbPul3jTtXf5PKCSd0V-1" target="6vz8rKe293q5rdwhXEcq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vz8rKe293q5rdwhXEcq-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovbPul3jTtXf5PKCSd0V-1" target="6vz8rKe293q5rdwhXEcq-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Posts service" link="data:page/id,rYMAm0tguLFf2HyyGp3A" id="ovbPul3jTtXf5PKCSd0V-1">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="360" y="280" width="120" height="60" as="geometry" />
@@ -237,6 +230,43 @@
             <mxPoint x="36" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6vz8rKe293q5rdwhXEcq-5" value="Get All Posts&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6vz8rKe293q5rdwhXEcq-7" value="Create Post" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6vz8rKe293q5rdwhXEcq-9" value="Get a specific post" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6vz8rKe293q5rdwhXEcq-11" value="Delete Post" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6vz8rKe293q5rdwhXEcq-13" value="Update Post" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MyQ6K6mgserKstN5wtNk" name="Server">
+    <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="suxNOuf6GMxDfs4Z-bu6-1" value="CPU" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cpu;" vertex="1" parent="1">
+          <mxGeometry x="425" y="230" width="44.8" height="44.8" as="geometry" />
+        </mxCell>
+        <mxCell id="suxNOuf6GMxDfs4Z-bu6-2" value="Hard disk" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.hard_disk;" vertex="1" parent="1">
+          <mxGeometry x="427" y="120" width="40" height="54" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yVNWeKlrKV_7KSGC9lbd" name="CPU">
+    <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>

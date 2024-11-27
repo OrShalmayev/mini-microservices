@@ -289,7 +289,7 @@
         <mxCell id="hAyinlRfIFMEokRk3m5p-10" value="Lane 3" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="hAyinlRfIFMEokRk3m5p-7">
           <mxGeometry y="630" width="590.0000000000005" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="hAyinlRfIFMEokRk3m5p-22" value="/Posts" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hAyinlRfIFMEokRk3m5p-22" value="/posts" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hAyinlRfIFMEokRk3m5p-23" value="POST" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -297,6 +297,18 @@
         </mxCell>
         <mxCell id="hAyinlRfIFMEokRk3m5p-26" value="X" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYWVbeK4JS08Cw-v2qcL-1" value="/post/1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYWVbeK4JS08Cw-v2qcL-2" value="GET" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYWVbeK4JS08Cw-v2qcL-3" value="X" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wYWVbeK4JS08Cw-v2qcL-4" value="Get a specific post" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="550" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

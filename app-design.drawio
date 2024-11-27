@@ -203,6 +203,9 @@
         <mxCell id="6vz8rKe293q5rdwhXEcq-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovbPul3jTtXf5PKCSd0V-1" target="6vz8rKe293q5rdwhXEcq-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="6vz8rKe293q5rdwhXEcq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovbPul3jTtXf5PKCSd0V-1" target="ovbPul3jTtXf5PKCSd0V-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="Posts service" link="data:page/id,rYMAm0tguLFf2HyyGp3A" id="ovbPul3jTtXf5PKCSd0V-1">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="360" y="280" width="120" height="60" as="geometry" />

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.2" pages="8">
   <diagram name="App Overview" id="0c5tFVvAAkG9lXj8FfHK">
     <mxGraphModel dx="1140" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -405,63 +405,84 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aZqIep41oZ4ma04Jfyru" name="Monolithic server">
-    <mxGraphModel dx="1466" dy="2029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="684" dy="1533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0KxbMmZCzFer52kpn4cY-20" value="" style="whiteSpace=wrap;html=1;fillColor=#E6E6E6;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-20" value="" style="whiteSpace=wrap;html=1;fillColor=#E6E6E6;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="1150" y="230" width="240" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-2" value="" style="whiteSpace=wrap;html=1;fillColor=#E6E6E6;fontColor=#ffffff;strokeColor=#006EAF;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-2" value="" style="whiteSpace=wrap;html=1;fillColor=#E6E6E6;fontColor=#ffffff;strokeColor=#006EAF;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="500" y="230" width="610" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0KxbMmZCzFer52kpn4cY-5" target="0KxbMmZCzFer52kpn4cY-6">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0KxbMmZCzFer52kpn4cY-5" target="0KxbMmZCzFer52kpn4cY-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-5" value="Moddleware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-5" value="Moddleware" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="250" width="120" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0KxbMmZCzFer52kpn4cY-6" target="0KxbMmZCzFer52kpn4cY-8">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0KxbMmZCzFer52kpn4cY-6" target="0KxbMmZCzFer52kpn4cY-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0KxbMmZCzFer52kpn4cY-6" target="0KxbMmZCzFer52kpn4cY-8">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0KxbMmZCzFer52kpn4cY-6" target="0KxbMmZCzFer52kpn4cY-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0KxbMmZCzFer52kpn4cY-6" target="0KxbMmZCzFer52kpn4cY-11">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0KxbMmZCzFer52kpn4cY-6" target="0KxbMmZCzFer52kpn4cY-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0KxbMmZCzFer52kpn4cY-6" target="0KxbMmZCzFer52kpn4cY-13">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0KxbMmZCzFer52kpn4cY-6" target="0KxbMmZCzFer52kpn4cY-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-6" value="Router" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-6" value="Router" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="250" width="120" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-8" value="Feature A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-8" value="Feature A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" parent="1" vertex="1">
           <mxGeometry x="850" y="250" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-11" value="Feature B" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFCCCC;" vertex="1" parent="1">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-11" value="Feature B" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="850" y="310" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-13" value="Feature C" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#CCFFFF;" vertex="1" parent="1">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-13" value="Feature C" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#CCFFFF;" parent="1" vertex="1">
           <mxGeometry x="850" y="370" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-19" value="&lt;h1&gt;Monolith Server&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-19" value="&lt;h1&gt;Monolith Server&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="685" y="190" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-21" value="## What is a Microservice?&lt;br&gt;&lt;br&gt;Let&#39;s start by reviewing how you might be building servers currently. You are likely familiar with Monolithic architectures. This is a common approach to building servers.&lt;br&gt;In a monolithic server, all the code needed to implement the application resides in a single codebase, which is deployed as one discrete unit. Here&#39;s a typical flow in a monolithic server:&lt;br&gt;1. A request comes from a user device.&lt;br&gt;2. The request flows into the application, possibly passing through preprocessing middleware.&lt;br&gt;3. The request is routed to a specific feature.&lt;br&gt;4. The feature processes the request, potentially reading or writing data to a database.&lt;br&gt;5. A response is formulated and sent back to the requester.&lt;br&gt;&lt;br&gt;To summarize, a monolithic server contains all the routing, middleware, business logic, and database access code required to implement all features of the application. This encapsulates the essence of a monolithic architecture." style="text;overflow=hidden;rounded=0;fillColor=#ebebeb;fillStyle=auto;gradientColor=none;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-21" value="## What is a Microservice?&lt;br&gt;&lt;br&gt;Let&#39;s start by reviewing how you might be building servers currently. You are likely familiar with Monolithic architectures. This is a common approach to building servers.&lt;br&gt;In a monolithic server, all the code needed to implement the application resides in a single codebase, which is deployed as one discrete unit. Here&#39;s a typical flow in a monolithic server:&lt;br&gt;1. A request comes from a user device.&lt;br&gt;2. The request flows into the application, possibly passing through preprocessing middleware.&lt;br&gt;3. The request is routed to a specific feature.&lt;br&gt;4. The feature processes the request, potentially reading or writing data to a database.&lt;br&gt;5. A response is formulated and sent back to the requester.&lt;br&gt;&lt;br&gt;To summarize, a monolithic server contains all the routing, middleware, business logic, and database access code required to implement all features of the application. This encapsulates the essence of a monolithic architecture." style="text;overflow=hidden;rounded=0;fillColor=#ebebeb;fillStyle=auto;gradientColor=none;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="-80" width="970" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-23" value="Request" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" vertex="1" parent="1">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-23" value="Request" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" parent="1" vertex="1">
           <mxGeometry x="360" y="315" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-25" value="&lt;h1&gt;Database&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-25" value="&lt;h1&gt;Database&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1240" y="190" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-30" value="Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-30" value="Data" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="240" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0KxbMmZCzFer52kpn4cY-31" value="Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0KxbMmZCzFer52kpn4cY-31" value="Data" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="340" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="A14rbHiQVgf9pGi3g11g-1" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="610" width="610" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="A14rbHiQVgf9pGi3g11g-3" value="Moddleware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="670" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="A14rbHiQVgf9pGi3g11g-12" value="&lt;h2&gt;A monolith contains&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="685" y="620" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A14rbHiQVgf9pGi3g11g-13" value="Routing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="670" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="A14rbHiQVgf9pGi3g11g-14" value="Business logic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="670" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="A14rbHiQVgf9pGi3g11g-15" value="Database access" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="670" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="A14rbHiQVgf9pGi3g11g-16" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;to implement &lt;/span&gt;all features &lt;span style=&quot;font-weight: normal;&quot;&gt;of our app&lt;/span&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="810" width="420" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

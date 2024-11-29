@@ -27,6 +27,9 @@ With microservice architecture, we split different features into their own dedic
 
 The advantage of this approach is that if other services in the application crash or become unavailable, a portion of the application will still function properly. Service A is 100% standalone and does not require any other service to work correctly. Each microservice contains all the code required to make one feature work correctly.
 
+## Pros and Cons 
+1.technology agnostic
+
 ## Is Microservices the only architectural pattern?
 There are several architectural patterns for building applications beyond microservices. Here are a few:
 

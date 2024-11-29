@@ -1,4 +1,12 @@
 # Mini microservices Blog app
+# Blog Architecture
+To build a blog application using microservices architecture, you can break down the application into several independent services, each responsible for a specific feature. Here is an example of how you might structure the microservices:
+1. Posts Service: Manages blog posts.
+2. Comments Service: Manages comments on posts.
+3. Users Service: Manages user accounts and authentication.
+4. Notifications Service: Handles notifications (e.g., email notifications for new comments).
+5. Gateway Service: Acts as an API gateway to route requests to the appropriate services.
+   
 ## What is a Microservice?
 
 Let's start by reviewing how you might be building servers currently. You are likely familiar with Monolithic architectures. This is a common approach to building servers.
@@ -51,3 +59,4 @@ There are several architectural patterns for building applications beyond micros
    - **Use Case**: Suitable for applications that need to be highly maintainable and testable, with a clear separation between business logic and external systems.
 
 Each architecture has its own strengths and is suitable for different types of applications and organizational needs. The choice depends on factors such as application complexity, scalability requirements, development team size, and deployment strategies.
+

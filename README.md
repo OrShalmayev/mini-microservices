@@ -1,4 +1,11 @@
 # Mini microservices Blog app
+## What is a microservice?
+We will first review how you're probably building servers right now.
+so right now youre probably familiar with Monolithic architectures.
+this is how youre probabbly building servers right now.
+in a monotlithic server we have all of our code needed to implement our application inside of one single code base, and we deploy this code base in one descrit unit.
+so we might imagine that with monolithic server, there is a req that coming from a user device that will flow into our application and maybe go throguh preprocessing middleware and maybe goes off then to some router and that router might then inspect request and decide to send off to some very specfic feature for that process, for example goes to feature A, feature A might decide to read/write some data to db eventualy formulate response, and then send the response to who ever made the request.
+so if we had to characterize a monolithic server we might say the following we might summarize it with this sentence, we might say that monolithic contains all the routing all the midddlewares all the business logic and all the db access code required code required to implement all features of our application. so that will charactrized a monolithic server. 
 
 ## Is Microservices the only architectural pattern?
 There are several architectural patterns for building applications beyond microservices. Here are a few:

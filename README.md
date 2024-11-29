@@ -31,6 +31,7 @@ The advantage of this approach is that if other services in the application cras
 1.technology agnostic
 
 ## Microservices at glance
+
 Microservices are a design approach in software architecture where an application is built as a collection of small, independent services. Each microservice is:
 
 1. Independently Releasable:
@@ -49,7 +50,10 @@ This aligns the architecture with the organization's business goals and makes th
 
 
 
+a service encapsulate it's own functionality and makes it accessible via network.
+
 ## Is Microservices the only architectural pattern?
+
 There are several architectural patterns for building applications beyond microservices. Here are a few:
 
 1. **Monolithic Architecture**:

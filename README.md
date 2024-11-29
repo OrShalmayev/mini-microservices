@@ -11,7 +11,9 @@ In a monolithic server, all the code needed to implement the application resides
 4. The feature processes the request, potentially reading or writing data to a database.
 5. A response is formulated and sent back to the requester.
 
-To summarize, a monolithic server contains all the routing, middleware, business logic, and database access code required to implement all features of the application. This encapsulates the essence of a monolithic architecture.
+To summarize, a monolithic server contains all the routing, middlewares, business logic, and database access code required to implement all features of the application. This encapsulates the essence of a monolithic architecture.
+
+A single microservice contains all the routing, middleware, business logic, and database access required to implement one feature of our application. This is the key difference: a monolith has all the code needed to implement every feature.
 
 ## Is Microservices the only architectural pattern?
 There are several architectural patterns for building applications beyond microservices. Here are a few:

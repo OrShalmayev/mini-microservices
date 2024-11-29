@@ -488,31 +488,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vNPr-wsKOIXsofkCWJLa" name="Microservice">
-    <mxGraphModel dx="1466" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1466" dy="2029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2fLScxl3ieeY5KlzS-4u-2" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="160" y="140" width="610" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="2fLScxl3ieeY5KlzS-4u-3" value="Moddleware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="200" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="2fLScxl3ieeY5KlzS-4u-4" value="&lt;h2&gt;A single microservice contains&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="312.5" y="150" width="305" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2fLScxl3ieeY5KlzS-4u-5" value="Routing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="200" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="2fLScxl3ieeY5KlzS-4u-6" value="Business logic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="200" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="2fLScxl3ieeY5KlzS-4u-7" value="Database access" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="200" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="2fLScxl3ieeY5KlzS-4u-8" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;to implement &lt;/span&gt;one feature&amp;nbsp;&lt;span style=&quot;font-weight: normal;&quot;&gt;of our app&lt;/span&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="340" width="420" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="2fLScxl3ieeY5KlzS-4u-9" value="Request" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" vertex="1" parent="1">
           <mxGeometry x="10.000000000000227" y="820" width="90" height="30" as="geometry" />
         </mxCell>
@@ -659,6 +638,33 @@
         </mxCell>
         <mxCell id="2fLScxl3ieeY5KlzS-4u-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2fLScxl3ieeY5KlzS-4u-47" source="2fLScxl3ieeY5KlzS-4u-57" target="2fLScxl3ieeY5KlzS-4u-50">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2fLScxl3ieeY5KlzS-4u-59" value="With microservice architecture, we split different features into their own dedicated services. It&#39;s important to understand that each of these services is entirely self-contained. For example, Service A includes all the code necessary for Feature A to function correctly, including its own middleware, router, and even its own database.&#xa;The advantage of this approach is that if other services in the application crash or become unavailable, a portion of the application will still function properly. Service A is 100% standalone and does not require any other service to work correctly. Each microservice contains all the code required to make one feature work correctly.&#xa;&#xa;." style="text;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="300" width="560" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="2fLScxl3ieeY5KlzS-4u-60" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="140" y="-250" width="610" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="2fLScxl3ieeY5KlzS-4u-2" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="2fLScxl3ieeY5KlzS-4u-60">
+          <mxGeometry width="610" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="2fLScxl3ieeY5KlzS-4u-3" value="Moddleware" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2fLScxl3ieeY5KlzS-4u-60">
+          <mxGeometry x="20" y="60" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2fLScxl3ieeY5KlzS-4u-4" value="&lt;h2&gt;A single microservice contains&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2fLScxl3ieeY5KlzS-4u-60">
+          <mxGeometry x="152.5" y="10" width="305" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2fLScxl3ieeY5KlzS-4u-5" value="Routing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2fLScxl3ieeY5KlzS-4u-60">
+          <mxGeometry x="170" y="60" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2fLScxl3ieeY5KlzS-4u-6" value="Business logic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2fLScxl3ieeY5KlzS-4u-60">
+          <mxGeometry x="320" y="60" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2fLScxl3ieeY5KlzS-4u-7" value="Database access" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2fLScxl3ieeY5KlzS-4u-60">
+          <mxGeometry x="470" y="60" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2fLScxl3ieeY5KlzS-4u-8" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;to implement &lt;/span&gt;one feature&amp;nbsp;&lt;span style=&quot;font-weight: normal;&quot;&gt;of our app&lt;/span&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2fLScxl3ieeY5KlzS-4u-60">
+          <mxGeometry x="80" y="200" width="420" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

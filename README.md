@@ -30,6 +30,25 @@ The advantage of this approach is that if other services in the application cras
 ## Pros and Cons 
 1.technology agnostic
 
+## Microservices at glance
+Microservices are a design approach in software architecture where an application is built as a collection of small, independent services. Each microservice is:
+
+1. Independently Releasable:
+
+Each service can be developed, tested, deployed, and scaled independently of other services.
+
+This isolation allows teams to release updates or fixes for one service without affecting the rest of the system.
+
+
+
+2. Modeled Around a Business Domain:
+
+Each microservice is designed to focus on a specific business capability or function (e.g., user management, payments, or inventory).
+
+This aligns the architecture with the organization's business goals and makes the system easier to understand and manage.
+
+
+
 ## Is Microservices the only architectural pattern?
 There are several architectural patterns for building applications beyond microservices. Here are a few:
 
